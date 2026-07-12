@@ -3,10 +3,11 @@ name: my first github action workflow
 on: push
 branch: main
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
+
      steps:
         -name: hello display
-        -run: echo "Weocome to kk funda devops"
+         run: echo "Weocome to kk funda devops"
     
