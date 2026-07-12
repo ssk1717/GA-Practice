@@ -1,6 +1,7 @@
 name: my first github action workflow
 
 on: push
+branch: main
 
 job:
   build:
