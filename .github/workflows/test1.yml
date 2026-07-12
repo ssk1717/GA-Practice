@@ -4,4 +4,8 @@ on: push
 
 job:
   build:
+    runs-on: ubuntu-latest
+     -steps:
+        -name: hello display
+        -run: echo "Weocome to kk funda devops"
     
