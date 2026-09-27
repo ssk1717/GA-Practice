@@ -1,0 +1,18 @@
+name: executing uptime.sh shell script file
+
+on: 
+  workflow_dispatch:
+
+jobs: 
+  files:
+     runs-on: ubuntu-latest
+     steps:
+        - name: Checkout the code 
+          uses: actions/checkout@v7
+
+        - name: execute the shell script 
+          run: |
+            pwd
+            ls -lrth
+            chmod + X uptime.sh 
+            ./uptime.sh
