@@ -1,4 +1,4 @@
-name: executing uptime.sh shell script file
+name: Executing shell script file
 
 on: 
   workflow_dispatch:
@@ -8,9 +8,9 @@ jobs:
      runs-on: ubuntu-latest
      steps:
         - name: Checkout the code 
-          uses: actions/checkout@v7
+          uses: actions/checkout@v5
 
-        - name: execute the shell script 
+        - name: Execute the shell script 
           run: |
             pwd
             ls -lrth
