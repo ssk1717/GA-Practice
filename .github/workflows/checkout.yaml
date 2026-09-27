@@ -8,11 +8,11 @@ jobs:
      runs-on: ubuntu-latest
      steps:
         - name: Checkout the code 
-          uses: actions/checkout@v5
+          uses: actions/checkout@v4
 
         - name: Execute the shell script 
           run: |
             pwd
             ls -lrth
-            chmod+x uptime.sh 
+            chmod +x uptime.sh 
             ./uptime.sh
