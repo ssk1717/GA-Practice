@@ -14,5 +14,5 @@ jobs:
           run: |
             pwd
             ls -lrth
-            chmod + X uptime.sh 
+            chmod+x uptime.sh 
             ./uptime.sh
